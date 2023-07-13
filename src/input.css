@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Blackout;
+    src: url("asset/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2") format("opentype");
+}

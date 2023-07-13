@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        primary: "Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2",
+      },
+    },
   },
   plugins: [],
 };
